@@ -1,0 +1,7 @@
+# Complete cleanup in PowerShell (from project_4 directory)
+cd "C:\Academics\PROJECT\Digital_back_intern\project_4"
+
+Remove-Item "data\*" -Force
+Remove-Item "faiss_index\*" -Force -Recurse
+Remove-Item "rag\vector_index.pkl" -Force
+
